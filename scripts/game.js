@@ -1,9 +1,10 @@
 //Iniciar variáveis
-
+let squares = document.querySelectorAll(".square");
 let board = ['', '', '', '', '', '', '', '', '',];
 let playerTime = 0;
 let symbols = ['o', 'x']
 let gameOver = false;
+
 function handleMove(position) {
 
     if (gameOver) {
@@ -51,4 +52,16 @@ function isWin() {
         }
     }
     return false;
+}
+
+function reset1(){
+
+    board = ['', '', '','', '', '','', '', '']
+    playerTime = 0
+    
+    gameOver = false
+
+    countTurn0 = 0
+    countTurn1 = 0
+    
 }

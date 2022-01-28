@@ -41,3 +41,27 @@ body{
     right: 0;
     left: 0;
 }
+
+.restart_game{
+    /* position:absolute; */
+    background-color:beige;
+    color: black;
+    padding: 15px;
+    display: inline-block;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    font-weight:bold;
+    
+}
+.restart_game:hover{
+    background-color: rgb(209, 209, 162);
+}
+
+#gameOver{
+    display: none;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
